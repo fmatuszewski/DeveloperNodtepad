@@ -1,0 +1,10 @@
+https://www.keycloak.org/docs/1.9/server_installation_guide/topics/clustering/load-balancer.html 
+Enable HTTPS/SSL with a Reverse Proxy 
+To zmieniłem w Keycloaku
+w domain.xml
+żeby https zbaanlgał
+
+i jeszcze:
+proxy-address-forwarding="true" redirect-socket="proxy-https"/> 
+w http-listenerze
+
